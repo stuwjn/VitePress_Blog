@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../node_modules/@escook/vitepress-theme/dist/config.js"],
+  "sourcesContent": ["const e = {\n  themeConfig: {\n    outline: [2, 3],\n    musicBall: {\n      src: \"\",\n      enable: !0,\n      visible: !0,\n      autoplay: !1,\n      loop: !0\n    },\n    confetti: !0\n  },\n  markdown: {\n    lineNumbers: !0\n  },\n  vite: {\n    ssr: {\n      noExternal: [\"element-plus\", \"@escook/vitepress-theme\"],\n      External: [\"vitepress\"]\n    }\n  }\n};\nexport {\n  e as default\n};\n"],
+  "mappings": ";;;AAAA,IAAM,IAAI;AAAA,EACR,aAAa;AAAA,IACX,SAAS,CAAC,GAAG,CAAC;AAAA,IACd,WAAW;AAAA,MACT,KAAK;AAAA,MACL,QAAQ;AAAA,MACR,SAAS;AAAA,MACT,UAAU;AAAA,MACV,MAAM;AAAA,IACR;AAAA,IACA,UAAU;AAAA,EACZ;AAAA,EACA,UAAU;AAAA,IACR,aAAa;AAAA,EACf;AAAA,EACA,MAAM;AAAA,IACJ,KAAK;AAAA,MACH,YAAY,CAAC,gBAAgB,yBAAyB;AAAA,MACtD,UAAU,CAAC,WAAW;AAAA,IACxB;AAAA,EACF;AACF;",
+  "names": []
+}
