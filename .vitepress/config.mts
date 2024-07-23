@@ -2,15 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "📺",
-  description: "TheWJNing",
+  title: "My Awesome Project",
+  description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'work', link: '/markdown-examples' }
+      { text: 'Examples', link: '/markdown-examples' }
     ],
+
     sidebar: [
       {
         text: 'Examples',
@@ -23,7 +23,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ],
-    
+    ]
   }
 })
