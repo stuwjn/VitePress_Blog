@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "TheWJNing♥️Movies"
+  text: "牧野十九画生的字幕作品集&影评"
+  tagline: 🚩TheWJNing's Subtitle Work & Comment on film website
+  image:
+    src: /logo_gif.gif
+    alt: logo
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +18,7 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: To The Art
+    details: The Infinite Future
 ---
 
