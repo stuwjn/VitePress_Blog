@@ -44,15 +44,17 @@ export default defineConfigWithTheme({
 
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '文档', link: '/components/Friends_Subtitle' }
     ],
     sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '免责声明Disclaimers', link: '/components/免责声明Disclaimers' },
+          { text: '老友记字幕', link: '/components/Friends_Subtitle' },
+          { text: 'Markdown Examples', link: '/components/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/components/api-examples' }
         ]
       }
     ],
