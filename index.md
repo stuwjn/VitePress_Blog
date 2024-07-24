@@ -20,5 +20,11 @@ hero:
 features:
   - title: To The Art
     details: The Infinite Future
+  - title: 老友记.Friends
+    icon:
+      src: /Friends_icon.png
+    details: 老友记字幕
+    link: /Friends_Subtitle.md
+    linkText: 查看详情
 ---
 
