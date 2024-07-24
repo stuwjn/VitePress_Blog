@@ -41,6 +41,12 @@ export default defineConfigWithTheme({
   extends: escookConfig,
   title: 'TheWJNing♥️Movies📺',
   description: 'TheWJNing Subtitle Work & Comment on film website',
+  head: [
+    // 设置 favor.ico，.vuepress/public 下
+    [
+        'link', { rel: 'icon', href: '/🎉.svg' }
+    ]
+  ],
 
   themeConfig: {
     logo: '/logo_gif.gif',
