@@ -39,10 +39,11 @@ import escookConfig from '@escook/vitepress-theme/config'
 export default defineConfigWithTheme({
   // 3. specify the configuration to inherit via extended
   extends: escookConfig,
-  title: '📺',
-  description: 'A VitePress Site',
+  title: 'TheWJNing♥️Movies📺',
+  description: 'TheWJNing Subtitle Work & Comment on film website',
 
   themeConfig: {
+    logo: '/logo_gif.gif',
     nav: [
       { text: '首页', link: '/' },
       { text: '文档', link: '/components/Friends_Subtitle' }
